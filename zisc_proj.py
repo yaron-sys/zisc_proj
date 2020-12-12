@@ -5,7 +5,7 @@ from gpiozero import PWMLED
 from gpiozero import Button
 
 from time import sleep
-from signal import pause
+#from signal import pause
 
 def ledPWMStart(pinNum, sleepTimeSec):
 	"""
@@ -53,4 +53,4 @@ def main():
 if __name__ == "__main__":
     # execute only if run as a script
     #main()
-	print("hello yaron")
+	  print("hello world")
